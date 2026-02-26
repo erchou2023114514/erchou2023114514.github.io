@@ -1,1 +1,139 @@
-<hl>Here!</hl>
+<!-- E:\ccc\index.html -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HwaKwong 学校</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #0B2A4A;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        nav {
+            background: #f0f0f0;
+            padding: 1rem;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+        }
+        section {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 700px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HwaKwong School</h1>
+        <p>[HG] · [2024 01]</p>
+    </header>
+
+    <nav>
+        <ul>
+           <li><a href="index.html">首页</a></li>
+            <li><a href="index.photo.html">照片</a></li>
+            <li><a href="index.style.html">班风</a></li>
+            <!--<li><a href="#">讨论区</a></li> --> 
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="main-content">
+            <section>
+                <h2>公告栏</h2>
+                <!-- 在这里添加公告 -->
+                <p style="color: #999;">目前什么事情也没有。</p>
+            </section>
+
+            <section>
+                <h2>基本信息</h2>
+                <!-- 在这里添加课程表 -->
+                <p style="color: #999;">总人数：40 人。</p>
+            </section>
+            <section>
+                <h2>干部人员</h2>
+                <p style="color: #999;">班长：Cheyu.</p>
+                <p style="color: #999;">副班长：Weha,Miay.</p>
+                <p style="color: #999;">纪律委员：Shanlin.</p>
+                <p style="color: #999;">学习委员：忘记了。</p>
+                <p style="color: #999;">卫生委员：GuanMin,忘记了。</p>
+                <p style="color: #999;">电教委员：Welia</p>
+                <p style="color: #999;">语文：Yuha,Honz,忘记了。</p>
+                <p style="color: #999;">数学：Yha,忘记名字了。</p>
+                <p style="color: #999;">英语：Jiha,Zx.</p>
+                <p style="color: #999;">道法：Jiha,Zha.</p>
+                <p style="color: #999;">历史：kk.</p>
+                <p style="color: #999;">物理：Zta,Jyu,忘记了.</p>
+                <p style="color: #999;">地理：忘记了。</p>
+                <p style="color: #999;">生物：Zx.</p>
+                <p style="color: #999;">信息科技：Ruli.</p>
+            </section>
+        </div>
+
+        <div class="sidebar">
+            <section>
+            <!-- 信息不传播 -->
+                <h2>班级信息</h2>
+                <p>班主任：未知</p>
+                <p>班长：LCY.</p>
+                <p>人数：40 人（男生 26 人，女生 13 人，未知 1 人）</p>
+                <p>班级名称：晨曦一班</p>
+            </section>
+
+            <section>
+                <h2>近期变动</h2>
+                <p style="color: #999;">[暂无活动]</p>
+            </section>
+
+            <section>
+                <h2>今日新闻</h2>
+                <p style="color: #999;"></p>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 HGS 晨曦一班 · 由班级同学维护</p>
+    </footer>
+</body>
+</html>
